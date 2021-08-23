@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "requests",
+  "info": {
+    "name": "Requests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile": {
+      "model": "profiles"
+    },
+    "serviceDescription": {
+      "type": "richtext"
+    },
+    "serviceDate": {
+      "type": "date"
+    },
+    "serviceLocation": {
+      "type": "json"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    }
+  }
+}
